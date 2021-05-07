@@ -100,60 +100,29 @@ body{
 }
 
 @media screen and (min-width: 1500px) {
-    body{
-        padding: 0 5% 0 5%;
-        overflow: hidden;
-    }
-
     .header {
-        display: flex;
-        justify-content: space-between;
         margin-bottom: 2%;
         font-size: xx-large;
     }
 
     .nav {
         padding-top: 3%;
-        font-family: Montserrat-Regular;
-    }
-
-    a {
-        border-bottom: 1px solid white;
-        transition: border-bottom 0.5s;
-    }
-
-    a:hover {
-        border-bottom: 1px solid black;
     }
 
     .content {
-        display: flex;
-        justify-content: left;
         height: 80vh;
     }
 
     .left-column {
         width: 500px;
-        border-right: 1px solid black;
-        display: flex;
-        justify-content: space-between;
         font-size: x-large;
     }
 
     .red-column {
         width: 3%;
-        background-color: red;
-    }
-
-    .profile-info {
-        width: 80%
     }
 
     .right-column {
-        padding-left: 5%;
-        overflow-y: scroll;
-        overflow-x: hidden;
-        width: 65%;
         font-size: x-large;
     }
 }
